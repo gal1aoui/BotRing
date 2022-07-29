@@ -1,0 +1,11 @@
+https://auth.ringover.com/oauth2/login
+
+<div data-text="permissions-text-start" data-clickfn="home.clickPermsBtn" class="welcome-btn">Commencer</div>
+
+<div class="wifi-circle first"></div>
+
+<div class="btn-call sipon" data-clickfn="dialer.offHook" data-dblclickfn="dialer.redial"><img src="/img/icon/phone-white.svg" alt="Call"></div>
+
+<input id="dialer-num" type="search" autocomplete="off" id="dialer-num" data-placeholder="dialer-input-placeholder-short" data-keyfn="dialer.offHook" data-keybind="13" data-inputfn="dialer.digitUpdate" data-keepevent="1" onfocus="this.classList.remove('ghost')" placeholder="Entrez un nom ou un numéro">
+
+<div class="btn-call btn-call-off" data-clickfn="dialer.onHook"><img src="/img/icon/phone-white.svg" alt="Call"></div>
