@@ -18,8 +18,8 @@ LoginTest
 
 *** Keywords ***
 LoginPhase
-    Input Text  id:mail    contact@casamail.site
-    Input Text  id:pwd     Ringosophie22
+    Input Text  id:mail    #email
+    Input Text  id:pwd     #password
     Click Element   //button[@class="login_submit"]
     Wait Until Element Is Visible   xpath://*[@id="body"]/div[2]/div/div[3]/div[1]/div[2]/div[1]/div[1]     80s
     Click Element   xpath://*[@id="body"]/div[2]/div/div[3]/div[1]/div[2]/div[1]/div[1]
